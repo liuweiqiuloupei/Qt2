@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    qDebug() << "第一次发生修改" << Qt::endl;
 }
 
 MainWindow::~MainWindow()
